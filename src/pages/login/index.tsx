@@ -246,9 +246,9 @@ const Login = () => {
             <Text
               color="$success9"
               as={Link}
-              href={`https://peifeng.li/request-account-authorization`}
+              href={`https://asmr.yanlib.top/user`}
             >
-              获取账户访问授权
+              用户中心
             </Text>
           </Flex>
         </Show>
@@ -309,13 +309,22 @@ const Login = () => {
         >
           <SSOLogin />
           <Show when={AuthnSignEnabled}>
-            <Icon
+            {/* <Icon
               cursor="pointer"
               boxSize="$8"
               as={IoFingerPrint}
               p="$0_5"
               onclick={AuthnSwitch}
-            />
+            /> */}
+            <Button
+              colorScheme="success"
+              w="$full"
+              loading={loading()}
+              onClick={AuthnSwitch}
+              cursor="pointer" // 设置鼠标悬停时的光标样式
+            >
+              {t("login.sso_login_text") || "统一登陆"}
+            </Button>
           </Show>
         </Flex>
       </VStack>

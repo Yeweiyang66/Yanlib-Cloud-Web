@@ -157,13 +157,13 @@
     "success": "Download completed"
   },
   "footer": {
-    "powered_by": "PeiFeng.Li",
-    "manage": "Sweet • Cloud",
-    "guest": "Sweet • Cloud"
+    "powered_by": "Yanlib.top",
+    "manage": "Yanlib • Cloud",
+    "guest": "Yanlib • Cloud"
   },
   "search": {
     "search": "Search",
-    "no_result": "Sweet • Search",
+    "no_result": "Yanlib • Search",
     "scopes": {
       "all": "All",
       "folder": "Folder",

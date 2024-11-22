@@ -161,13 +161,13 @@
     "success": "下载完成，太棒了！"
   },
   "footer": {
-    "powered_by": "PeiFeng.Li",
-    "manage": "Sweet • Cloud",
-    "guest": "Sweet • Cloud"
+    "powered_by": "Yanlib.top",
+    "manage": "Yanlib • Cloud",
+    "guest": "Yanlib • Cloud"
   },
   "search": {
     "search": "搜索",
-    "no_result": "Sweet • Search",
+    "no_result": "Yanlib • Search",
     "scopes": {
       "all": "全部",
       "folder": "目录",
